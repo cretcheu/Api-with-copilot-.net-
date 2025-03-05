@@ -1,0 +1,315 @@
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 404 {"message":"User with ID 3 not found."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 404 {"message":"User with ID 3 not found."}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: GET /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 405 
+Incoming Request: GET /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 405 
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+An unhandled exception has occurred: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '136' bits. (Parameter 'keyBytes')
+Outgoing Response: 200 {"Message":"An error occurred while processing your request."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+An unhandled exception has occurred: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '136' bits. (Parameter 'keyBytes')
+Outgoing Response: 200 {"Message":"An error occurred while processing your request."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3NDExMDk1MTAsImV4cCI6MTc0MTExMzExMCwiaWF0IjoxNzQxMTA5NTEwfQ.b-3Wo_Q9CqTWDWAjeJDEneO6g108yxbJ22nwm3nqamY"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3NDExMDk1NTYsImV4cCI6MTc0MTExMzE1NiwiaWF0IjoxNzQxMTA5NTU2fQ.nbIBNikR5IGDjR8YzJNKj71p-RsmjyFMJdmht8SIzeQ"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3NDExMDk2MzYsImV4cCI6MTc0MTExMzIzNiwiaWF0IjoxNzQxMTA5NjM2fQ.NTC4d8NecxKt0ryrWWXB6W-zV91ZIAYnUjUot8Jct5g"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3NDExMDk5NjUsImV4cCI6MTc0MTExMzU2NSwiaWF0IjoxNzQxMTA5OTY1fQ.Ryb_x93Gcr7Y0G-mbN7LwRv0ZVS4QHRSORl9g540n9A"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3NDExMTAwODksImV4cCI6MTc0MTExMzY4OSwiaWF0IjoxNzQxMTEwMDg5fQ.K8C2R5wH6NGXybcG8kBznCBwSR8rUsS4qmpEfwqlCH8"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiNDk2MWQ3NzEtZDg3ZS00YzJjLTg0ZGUtNjFmOTA3MDIzOGVlIiwiZXhwIjoxNzQxMTExOTQzLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.9zkdDs16XX3N4Pr1_mjtMmBhEoMgRIgUt7Q9tfN-0hM"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiNzU4ZmYxMmMtMzRjMS00YjBkLTg2MDEtYmVlYTZjZDM3N2ZlIiwiZXhwIjoxNzQxMTExOTk4LCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.eZM0l8f2oMZBonz2N2JDWEQUjPFDInWzEUUcRlwFY38"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiMDU0ZGNlZTYtMWQyZC00YmI4LTkzYjctYmJkZjhmY2ViNGJhIiwiZXhwIjoxNzQxMTEyMTE5LCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.obpnoiF7E4RSKTxxyHS9rlCXj1OpYJffc49DXKWXK-A"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiYzk0MTY5YWMtNGI1MS00MGY0LWFiNmUtNjc1ZjI0OTYzZjc1IiwiZXhwIjoxNzQxMTEyMTQyLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.82WsVjdGLQ3JsmkGwB3p-xmkm4BWm1XlMLNaULfkvMU"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiZWFhZmFjYTItYmJiNi00MTA5LTg1OTEtMzE3ODgxODJiODc3IiwiZXhwIjoxNzQxMTEyMTYzLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.qDM5_YTv7-EYFjdbvD7R69S0vMyuNvW_GSUuMTCzsPw"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiNzYzMGQ2NzgtZjIyZi00ZGU4LWI4ZGUtMzI1ZWE3N2YwMzYzIiwiZXhwIjoxNzQxMTEyMjIxLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ._HXTCsPKqbHP9zAkK0XCpV8Ki9jAyFBnWN_VRCv1ais"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiNTBiODY3NWQtMzRkZS00ZGEzLTk5YTYtZWI3ODllNWI5OTU3IiwiZXhwIjoxNzQxMTEyNTUxLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.70QLOxigfEovZoaJlvh0Ni8lZc0NcyA0wh0pobyj7Rk"}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiZGI2MTJhYmUtNThlYy00MzcyLWFmZjktZWI2NWQwODMxYTg1IiwiZXhwIjoxNzQxMTEyNTc0LCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.owFPu5siPAzpdN0MsXokwM1Tra0muTmbYUoZrqSrpQg"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiY2RmZGUxYjAtZjhiMS00ZTdlLTkxNDktMzk5YmYwZjFkNDMyIiwiZXhwIjoxNzQxMTEyNjU5LCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.IfzfvB2eTYpEZGkZ8UeyuJGMPwo0wLXXX_lLKXn3Bb8"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiZWQwYjk5YzctN2EzYS00Y2UwLWJhNzQtYjg1NWY1OThlMTA5IiwiZXhwIjoxNzQxMTEyNzMzLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.vOKhJRq153MTLJNv08OL3uT8iDNDe0gBAAETbdlToLQ"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiOWY5NmVmZTAtNTczMC00ZDhkLWE0MjAtMjI1N2Q4MjI2YWU0IiwiZXhwIjoxNzQxMTEyNzkwLCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.KtdqAt68rKMHhVYa7wFUWdA2trq1pboux-7y-x7Ahp8"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
+Incoming Request: POST /api/auth/token {
+    "username" : "test",
+    "password" : "password"
+}
+Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwianRpIjoiNjkxYTFmOWYtYWIyZS00OTFlLTliOGMtMWI4Mzc0ZGU5YmUzIiwiZXhwIjoxNzQxMTEyODM0LCJpc3MiOiJ5b3VyLWlzc3VlciIsImF1ZCI6InlvdXItYXVkaWVuY2UifQ.K0FrllSCFWM0ZyOZnIPnBA8pC40qk837rIGDpQOsKM8"}
+Incoming Request: GET /api/users/1 {
+    "Name" : "Shane Kavinda",
+    "email" : "shane@example.com",
+    "password" : "shane1234"
+}
+Outgoing Response: 200 {"id":1,"name":"John Doe","email":"john.doe@example.com","password":"password123"}
+Incoming Request: POST /api/users {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password123"
+}
+Outgoing Response: 201 {"id":3,"name":"Shane Kavinda","email":"shane.kavinda@example.com","password":"password123"}
+Incoming Request: PUT /api/users/3 {
+    "name": "Shane Kavinda",
+    "email": "shane.kavinda@example.com",
+    "password": "password1234"
+}
+Outgoing Response: 200 {"message":"User updated successfully."}
+Incoming Request: DELETE /api/users/3 
+Outgoing Response: 200 {"message":"User deleted successfully."}
